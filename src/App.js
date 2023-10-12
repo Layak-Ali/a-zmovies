@@ -6,7 +6,7 @@ import Card from './Card';
 
 
 //9cfc66a8
-const API_URL = 'http://www.omdbapi.com?apikey=9cfc66a8';
+const API_URL = 'http://www.omdbapi.com?apikey=b6003d8a';
 
 const App = () => {
     const [movies, setMovies] = useState([]);
