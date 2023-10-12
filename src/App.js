@@ -20,7 +20,7 @@ const App = () => {
     };
 
     useEffect( ()=> {
-        search('Marvel');
+        searchTerm('Marvel');
     },[]);
 
     return(
