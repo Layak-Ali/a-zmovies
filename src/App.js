@@ -20,7 +20,7 @@ const App = () => {
     };
 
     useEffect( ()=> {
-        searchTerm('Marvel');
+        search('Marvel');
     },[]);
 
     return(
@@ -38,7 +38,7 @@ const App = () => {
             onClick={()=>search(searchTerm)} />
         </div>
         {
-            movies?.length > 0
+            movies.length > 0
             ?(
             <div className="container">
                 {movies.map((movie) => (
